@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>PDC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/slika3.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Informations.html">INFORMATIONS</a></li>
+                    <li><a href="Rankings.html">RANKING</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu" ></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="ros">
+            <div class="about-col"></div>
+            <h1>Professional Darts Corporation</h1>
+            <p>The Professional Darts Corporation (PDC) is a professional darts organisation in the United Kingdom, established in 1992 when a group of leading players split from the British Darts Organisation (BDO) to form what was initially called the World Darts Council (WDC). Sports promoter Eddie Hearn is the PDC chairman.
+                The PDC developed and holds several championship competitions, including the annual PDC World Darts Championship, the World Matchplay, World Grand Prix, UK Open, Premier League, and Grand Slam. It also runs its own world rankings based on players' performances.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            <div class="about-col">
+                <img src="images/slika12.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The PDC World Darts Championship, known for sponsorship purposes as the Paddy Power World Darts Championship, organised by the Professional Darts Corporation (PDC), 
+            is a World Professional Darts Championship held annually in the sport of darts.</p>
+        <p>Made by Patrik Hegolj</p>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
